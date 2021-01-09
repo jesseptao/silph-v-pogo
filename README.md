@@ -48,7 +48,7 @@ After seeing how similar the distriutions were for the 2 subreddits we decided n
 
 Unfortunately this is not what we wanted, so we added our own custom stop words to the default NLTK to actually find a difference between the two subreddits. We ended up getting a much better result doing this as can be seen below. We were able to find words like mega, pvpoke, battle, and league which are seen as words that would be highly correlated to a seasoned Pokémon Go player. 
 
-![BestCommon15](./images/most_common_more_stop_words.ṗng)
+![BestCommon15](./images/most_common_more_stop_words.png)
 
 After finding unique words between our subreddits, we are ready to move on to modeling. 
 
