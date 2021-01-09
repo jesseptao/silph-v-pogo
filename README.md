@@ -1,4 +1,4 @@
-# Project 3: Subreddit Analysis
+Subreddit Analysis
 
 ## Contents
 
@@ -10,7 +10,7 @@
 
 ### Introduction
 
-In this project, we will be using the [Pushshift API](https://github.com/pushshift/api) to get posts from 2 different subreddits and creating a model using NLP to determine which subreddit a post came from exactly. For those unfamiliar with Reddit, it is a site with many different communities called subreddits where people post about just about anything they are passionate about. For a more hands-on approach to how the site works you can visit it by clicking [here](https://reddit.com/). 
+We will be using the [Pushshift API](https://github.com/pushshift/api) to get posts from 2 different subreddits and creating a model using NLP to determine which subreddit a post came from exactly. For those unfamiliar with Reddit, it is a site with many different communities called subreddits where people post about just about anything they are passionate about. For a more hands-on approach to how the site works you can visit it by clicking [here](https://reddit.com/). 
 
 ### Problem Statement
 
