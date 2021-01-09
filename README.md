@@ -65,6 +65,8 @@ For our modeling, we decided to use CountVectorizer and TFIDFVectorizer with a c
 
 While we would have wanted to get better than 72% accuracy on our models, with the two subreddits being very similar it would be very difficult to do unless we implemented much more sophisticated models. As our logistic regression model was one of our best performers and it's a model that's easy to understand and fits quickly, this is the model we decided to use for production. To understand our logistic regression model better, we decided to look at our coefficients and which words were most important in determining if a post came from TheSilphRoad subreddit. Below we can see words like gbl, bug, megas, master, giratina, and articuno being strong indicators of a post being from TheSilphRoad subreddit which is what we wanted to see. 
 
+![topfeatures](./images/top_10_features.png)
+
 ### Conclusion
 
 While we weren't able to build a model that definitively classified a post as being from TheSilphRoad or pokemongo subreddit, reaching around 72% accuracy is quite good for two subreddits that are about the same game. With more time, I would want to try building a sentiment analyzer that weighs certain words that a seasoned Pokémon Go would use more heavily, as well as conducting grid searches on more complex models. A final thing we could try to improve our models is build a custom vectorizer that weighs certain words more heavily. 
